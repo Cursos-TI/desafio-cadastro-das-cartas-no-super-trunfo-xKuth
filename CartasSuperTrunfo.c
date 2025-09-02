@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+    // Variaveis Inicializadas:
     char estado[2], cod_carta[2], estado2[2], cod_carta2[2], cidade[20], cidade2[20];
     int populacao, pontos_turi, populacao2, pontos_turi2;
     float area, pib, area2, pib2;
@@ -39,9 +40,8 @@ int main(){
     scanf("%f", &pib2);
     printf("Digite quantos pontos turisticos sua cidade ira ter [apenas inteiros ex:1 a 999] ");
     scanf("%d" , &pontos_turi2);
-    
     //Fim segunda carta
-
+    // Declaração das cartas preenchidas!
     printf("-----------------------------------------\n");
     printf("Suas cartas foram : ↓\n");
     printf("Carta 1: \n Estado: %s\n Codigo: %s0%s \n Nome da cidade: %s\n população: %d\n Area: %.2f\n PIB: %.2f\n Numero de pontos turísticos %d",
